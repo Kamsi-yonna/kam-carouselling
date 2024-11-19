@@ -1,4 +1,4 @@
-import getHeadScripts from "./components/head-scripts";
+import getHeadScripts from "./commons/head-scripts";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
