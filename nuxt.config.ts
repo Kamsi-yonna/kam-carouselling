@@ -36,5 +36,5 @@ export default defineNuxtConfig({
     "/public/assets/css/main.css",
   ],
 
-  components: ["~/components"],
+  components: ["~/components", "~/components/Home"],
 });
