@@ -31,10 +31,10 @@ export default defineNuxtConfig({
   },
 
   css: [
-    "/public/assets/css/custom.css",
     "/public/assets/css/kam-caroselling.webflow.d19ad660d.css",
     "/public/assets/css/main.css",
+    "/public/assets/css/custom.css",
   ],
 
-  components: ["~/components"],
+  components: ["~/components", "~/components/Home"],
 });
