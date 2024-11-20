@@ -50,17 +50,20 @@ a {
 }
 
 .menu-social_link svg,
-.search-icon_wrapper svg {
+.search-icon_wrapper svg,
+.sound-icon_block svg {
   transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 .menu-social_link path,
+.sound-icon_block path,
 .search-icon_wrapper path {
   fill: #fff;
   transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 .menu-social_link:hover path,
+.sound-icon_block:hover path,
 .search-icon_wrapper:hover path {
   fill: var(--primary-blue);
 }
