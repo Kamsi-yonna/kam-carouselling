@@ -1,0 +1,70 @@
+.cc-underline {
+  background-color: #fff;
+  width: 100%;
+  height: 1px;
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.nav-underline {
+  transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.nav-link:hover .nav-underline {
+  background-color: var(--primary-blue);
+}
+
+.contact-link_name {
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.contact-link_name:hover {
+  color: var(--primary-blue);
+}
+
+a {
+  cursor: pointer;
+}
+
+.service-image_wrapper {
+  height: 800px;
+  min-width: 800px;
+  margin-top: -90px;
+}
+
+.contact-link {
+  transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.contact-link:hover .cc-underline {
+  background-color: var(--primary-blue);
+}
+
+.menu-link_block {
+  transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.menu-link_block:hover .cc-underline {
+  background-color: var(--primary-blue);
+}
+
+.menu-social_link svg,
+.search-icon_wrapper svg {
+  transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.menu-social_link path,
+.search-icon_wrapper path {
+  fill: #fff;
+  transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.menu-social_link:hover path,
+.search-icon_wrapper:hover path {
+  fill: var(--primary-blue);
+}
+
+.nav-link {
+  font-size: clamp(24px, 1.5625vw, 30px);
+}
