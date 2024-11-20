@@ -2222,7 +2222,7 @@ a {
   grid-row-gap: 5px;
   color: #fff;
   flex-flow: column;
-  font-size: 20px;
+  font-size: clamp(24px, 1.5625vw, 30px);
   text-decoration: none;
   transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   display: flex;
