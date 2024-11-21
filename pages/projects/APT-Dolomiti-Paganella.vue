@@ -134,8 +134,8 @@
                             <div class="w-dyn-bind-empty w-richtext"></div>
                         </div>
                         <div class="article-image_block">
-                            <img src="/public/assets/images/projects/673a508e830b9cdde51c960d_paganella-1_ktpybg.webp"
-                                loading="lazy" alt="" class="cc-image w-dyn-bind-empty" />
+                            <img src="./APT Dolomiti Paganella_files/placeholder.60f9b1840c.svg" loading="lazy" alt=""
+                                class="cc-image w-dyn-bind-empty" />
                         </div>
                     </div>
                 </div>
