@@ -80,3 +80,11 @@ a,
   max-width: 500px;
   padding: 30px;
 }
+
+.blue-image_bg {
+  z-index: 1;
+}
+
+.hero-image_block {
+  z-index: 2;
+}
