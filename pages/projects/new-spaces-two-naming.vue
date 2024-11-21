@@ -4,7 +4,7 @@
             <div class="letter-hero_wrapper">
                 <div class="letter-hero_details">
                     <div class="title_block">
-                        <div class="blue-text_span">APT Dolomiti Paganella</div>
+                        <div class="blue-text_span">New spaces two | Naming</div>
                     </div>
                     <div class="letter-share_wrapper">
                         <div>share</div>
@@ -41,7 +41,7 @@
                 </div>
                 <div class="hero-image_wrapper">
                     <div class="hero-image_block">
-                        <img src="/assets/images/projects/673a508e830b9cdde51c960d_paganella-1_ktpybg.webp"
+                        <img src="/public/assets/images/projects/673a508e9820f5ce5a8f1ab2_revoir-768x424_w20pqy.webp"
                             loading="lazy" alt="" class="hero-image" />
                     </div>
                     <div class="blue-image_bg"></div>
@@ -53,58 +53,56 @@
             <div class="project-content_wrapper">
                 <div id="w-node-_37738701-958c-6f6e-0883-418cca62c8b3-477c936f" class="project-date_block"></div>
                 <div class="project-content_block">
-
                     <div class="article-block">
                         <div class="article-header">
-                            <div>Customer</div>
+                            <div>Project: naming of the range of products for sleeping</div>
                             <div class="cc-underline quarter-width"></div>
                         </div>
                         <div class="header_content">
                             <div class="w-richtext">
                                 <p>
-                                    In the tourism sector, the Dolomiti Paganella Tourist Board
-                                    is responsible for promoting holidays and experiences in all
-                                    seasons, in Trentino, on the Paganella Plateau.
+                                    For Nuovi Spazi Due s.r.l., already a manufacturer and
+                                    seller of household products in the Milan area, we took care
+                                    of the naming of the new range of private label products for
+                                    furniture (home furniture) and sleeping (mattresses and
+                                    night accessories).
+                                </p>
+                                <p>
+                                    The naming had to "be able to brand" everything related to
+                                    home furnishings and/or items for the sleeping area.
+                                </p>
+                                <p>
+                                    We have proposed 5 free domain namings with related reasoned
+                                    explanation.
                                 </p>
                             </div>
                         </div>
-                        <div class="article-image_block">
-                            <img src="/assets/images/projects/673a508e830b9cdde51c960d_paganella-1_ktpybg.webp"
-                                loading="lazy" alt="" class="cc-image w-dyn-bind-empty" />
-                        </div>
+
                     </div>
                     <div class="article-block">
                         <div class="article-header">
-                            <div>What we did</div>
+                            <div>Choice: Revoir</div>
                             <div class="cc-underline quarter-width"></div>
                         </div>
                         <div class="header_content">
                             <div class="w-richtext">
                                 <p>
-                                    The amount of texts was varied and substantial, almost 120
-                                    texts ranging from the territory, to experiences, to tourist
-                                    places, to cultural itineraries, to all the countless sports
-                                    that can be practiced on the Paganella both in summer and
-                                    winter.
-                                </p>
-                                <p>
-                                    We took care of the research, copywriting (both creative and
-                                    informative), menus and submenus, naming of some services
-                                    (the game), adapting the target audience, the type of
-                                    information, the appeal or precision, creativity and
-                                    meticulousness to each type of text.
-                                </p>
-                                <p>
-                                    It was a long and important project and it was worth it!
+                                    The customer chose REVOIR. Revoir is a name that transports
+                                    us to the world of dreams. It derives from the French words
+                                    rêve and rêver (dream and dream) but also intercepts the
+                                    revoir (to see each other again) usually used in the
+                                    greeting formula goodbye (au revoir): see you again, of
+                                    course, but where? "In our stores". It's a nice way to keep
+                                    in touch, hoping to meet soon. But seeing ourselves again
+                                    also suggests something else, more subtle: seeing ourselves
+                                    again, or recognizing ourselves, "reflecting ourselves in
+                                    this new line of furniture and therefore finding the ideal
+                                    product for your bedroom".
                                 </p>
                             </div>
                         </div>
-                        <div class="article-image_block">
-                            <img src="/assets/images/projects/673a508e830b9cdde51c960d_paganella-1_ktpybg.webp"
-                                loading="lazy" alt="" class="cc-image w-dyn-bind-empty" />
-                        </div>
-                    </div>
 
+                    </div>
                 </div>
             </div>
         </div>
@@ -123,11 +121,11 @@ useSeoMeta({
     title: `${metaTitle} | Projects`,
     ogTitle: `${metaTitle} | Projects`,
     description:
-        "Customer",
+        "Naming of the range of products for sleeping",
     ogDescription:
-        "Customer",
+        "Naming of the range of products for sleeping",
     ogImage:
-        "https://cdn.prod.website-files.com/6732d301546e113668feb3eb/673a508e830b9cdde51c960d_paganella-1_ktpybg.webp",
+        "https://cdn.prod.website-files.com/6732d301546e113668feb3eb/673a508e9820f5ce5a8f1ab2_revoir-768x424_w20pqy.webp",
 })
 </script>
 
