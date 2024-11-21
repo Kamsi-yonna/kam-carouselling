@@ -170,6 +170,9 @@ const toggleMenu = () => {
 </script>
 
 <style scoped>
+.menu-window {
+  z-index: 3;
+}
 .service-image_wrapper {
   position: relative;
 }
