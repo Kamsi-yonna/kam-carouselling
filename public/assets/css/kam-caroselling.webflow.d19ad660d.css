@@ -2191,7 +2191,7 @@ a {
 }
 
 .c-nav {
-  z-index: 1;
+  z-index: 1000;
   justify-content: space-between;
   align-items: center;
   padding: 76px 60px;
@@ -3171,6 +3171,7 @@ a {
 
 .letter-hero_section {
   margin-bottom: clamp(80px, 14.9306vw, 180px);
+  margin-top: clamp(75px, 14.9306vw, 75px);
   margin-left: 60px;
   margin-right: 60px;
 }
@@ -3267,10 +3268,9 @@ a {
 .blue-image_bg {
   z-index: -1;
   background-color: var(--primary-blue);
-  width: 95%;
   position: absolute;
   inset: 0%;
-  transform: translate(80px, -40px);
+  transform: translate(5%, -8%);
 }
 
 .letter-content_section {
@@ -4328,6 +4328,10 @@ a {
 
   .hero-image_wrapper {
     height: 25vh;
+  }
+
+  .blue-image_bg {
+    width: 90%;
   }
 
   .letter-content_wrapper {
