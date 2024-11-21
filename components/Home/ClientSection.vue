@@ -31,7 +31,7 @@
 const projects = ref([
     { name: "New spaces two | Naming", label: "NAMING", url: "/a" },
     { name: "APT Dolomiti Paganella", label: "COPYWRITING", url: "/projects/APT-Dolomiti-Paganella" },
-    { name: "Gardalisa | Real Estate", label: "BRAND, COPYWRITING, SEO POSITIONING, SOCIAL MEDIA,TRANSLATIONS, WEB DESIGN", url: "/b" },
+    { name: "Gardalisa | Real Estate", label: "BRAND, COPYWRITING, SEO POSITIONING, SOCIAL MEDIA,TRANSLATIONS, WEB DESIGN", url: "/projects/gardalisa-real-estate" },
     { name: "Mobiliar | interior design", label: "COPYWRITING, SOCIAL MEDIA, TRANSLATIONS, WEB DESIGN", url: "/c" },
 ]);
 </script>
