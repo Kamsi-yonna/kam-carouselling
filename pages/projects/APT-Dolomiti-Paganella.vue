@@ -9,16 +9,13 @@
                     <div class="letter-share_wrapper">
                         <div>share</div>
                         <div class="social-links_block">
-                            <a href="https://kam-caroselling.webflow.io/projects/apt-dolomiti-paganella#"
-                                class="social-link w-inline-block"><img
+                            <a href="https://www.instagram.com/" class="social-link w-inline-block"><img
                                     src="https://cdn.prod.website-files.com/67245aca623c6cfc8f245f78/6732e5fbd12ebee771e7ceca_instagram.svg"
-                                    loading="lazy" alt="" class="cc-image c-contain" /></a><a
-                                href="https://kam-caroselling.webflow.io/projects/apt-dolomiti-paganella#"
+                                    loading="lazy" alt="" class="cc-image c-contain" /></a><a href="https://twitter.com"
                                 class="social-link w-inline-block"><img
                                     src="https://cdn.prod.website-files.com/67245aca623c6cfc8f245f78/6732e5fb1ecc3b35a9812ee7_twitter.svg"
                                     loading="lazy" alt="" class="cc-image c-contain" /></a><a
-                                href="https://kam-caroselling.webflow.io/projects/apt-dolomiti-paganella#"
-                                class="social-link w-inline-block"><img
+                                href="https://www.facebook.com" class="social-link w-inline-block"><img
                                     src="https://cdn.prod.website-files.com/67245aca623c6cfc8f245f78/6732e5fb7060f1754ebab753_facebook.svg"
                                     loading="lazy" alt="" class="cc-image c-contain" /></a>
                         </div>
@@ -26,7 +23,7 @@
                 </div>
                 <div class="hero-image_wrapper">
                     <div class="hero-image_block">
-                        <img src="public/assets/images/projects/673a508e830b9cdde51c960d_paganella-1_ktpybg.webp"
+                        <img src="/assets/images/projects/673a508e830b9cdde51c960d_paganella-1_ktpybg.webp"
                             loading="lazy" alt="" class="hero-image" />
                     </div>
                     <div class="blue-image_bg"></div>
@@ -38,9 +35,7 @@
             <div class="project-content_wrapper">
                 <div id="w-node-_37738701-958c-6f6e-0883-418cca62c8b3-477c936f" class="project-date_block"></div>
                 <div class="project-content_block">
-                    <div class="header_content w-condition-invisible">
-                        <div class="w-dyn-bind-empty w-richtext"></div>
-                    </div>
+
                     <div class="article-block">
                         <div class="article-header">
                             <div>Customer</div>
@@ -56,8 +51,8 @@
                             </div>
                         </div>
                         <div class="article-image_block">
-                            <img src="./APT Dolomiti Paganella_files/placeholder.60f9b1840c.svg" loading="lazy" alt=""
-                                class="cc-image w-dyn-bind-empty" />
+                            <img src="/assets/images/projects/673a508e830b9cdde51c960d_paganella-1_ktpybg.webp"
+                                loading="lazy" alt="" class="cc-image w-dyn-bind-empty" />
                         </div>
                     </div>
                     <div class="article-block">
@@ -87,57 +82,11 @@
                             </div>
                         </div>
                         <div class="article-image_block">
-                            <img src="./APT Dolomiti Paganella_files/placeholder.60f9b1840c.svg" loading="lazy" alt=""
-                                class="cc-image w-dyn-bind-empty" />
+                            <img src="/assets/images/projects/673a508e830b9cdde51c960d_paganella-1_ktpybg.webp"
+                                loading="lazy" alt="" class="cc-image w-dyn-bind-empty" />
                         </div>
                     </div>
-                    <div class="article-block w-condition-invisible">
-                        <div class="article-header">
-                            <div class="w-dyn-bind-empty"></div>
-                            <div class="cc-underline quarter-width"></div>
-                        </div>
-                        <div class="header_content">
-                            <div class="w-dyn-bind-empty w-richtext"></div>
-                        </div>
-                        <div class="article-image_block">
-                            <img src="./APT Dolomiti Paganella_files/placeholder.60f9b1840c.svg" loading="lazy" alt=""
-                                class="cc-image w-dyn-bind-empty" />
-                        </div>
-                    </div>
-                    <div class="article-block w-condition-invisible">
-                        <div class="article-header">
-                            <div class="w-dyn-bind-empty"></div>
-                            <div class="cc-underline quarter-width"></div>
-                        </div>
-                        <div class="header_content">
-                            <div class="w-dyn-bind-empty w-richtext"></div>
-                        </div>
-                        <div class="article-image_block">
-                            <img src="./APT Dolomiti Paganella_files/placeholder.60f9b1840c.svg" loading="lazy" alt=""
-                                class="cc-image w-dyn-bind-empty" />
-                        </div>
-                        <div class="article-image_block">
-                            <img src="./APT Dolomiti Paganella_files/placeholder.60f9b1840c.svg" loading="lazy" alt=""
-                                class="cc-image w-dyn-bind-empty" />
-                        </div>
-                        <div class="article-image_block">
-                            <img src="./APT Dolomiti Paganella_files/placeholder.60f9b1840c.svg" loading="lazy" alt=""
-                                class="cc-image w-dyn-bind-empty" />
-                        </div>
-                    </div>
-                    <div class="article-block w-condition-invisible">
-                        <div class="article-header">
-                            <div class="w-dyn-bind-empty"></div>
-                            <div class="cc-underline quarter-width"></div>
-                        </div>
-                        <div class="header_content">
-                            <div class="w-dyn-bind-empty w-richtext"></div>
-                        </div>
-                        <div class="article-image_block">
-                            <img src="./APT Dolomiti Paganella_files/placeholder.60f9b1840c.svg" loading="lazy" alt=""
-                                class="cc-image w-dyn-bind-empty" />
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
