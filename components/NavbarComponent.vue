@@ -173,10 +173,6 @@ const toggleMenu = () => {
 .menu-window {
   z-index: 3;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 83297b0ff08206a3c419234effee0e61a7f3b0b5
 .service-image_wrapper {
   position: relative;
 }
