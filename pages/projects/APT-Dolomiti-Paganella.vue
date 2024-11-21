@@ -114,7 +114,9 @@
 <script setup lang="ts">
 const metaTags = useDefault('meta')
 const route = useRoute()
-const metaTitle = route.path.split('/').pop()!.replace('.vue', '');
+const projectName = route.path.split('/').pop()!.replace('.vue', '');
+
+const metaTitle = projectName.charAt(0).toUpperCase() + projectName.slice(1).toLowerCase().replace(/-/g, ' ');
 
 useSeoMeta({
     ...metaTags,
