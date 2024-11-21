@@ -32,7 +32,7 @@ const projects = ref([
     { name: "New spaces two | Naming", label: "NAMING", url: "/projects/new-spaces-two-naming.vue" },
     { name: "APT Dolomiti Paganella", label: "COPYWRITING", url: "/projects/APT-Dolomiti-Paganella" },
     { name: "Gardalisa | Real Estate", label: "BRAND, COPYWRITING, SEO POSITIONING, SOCIAL MEDIA,TRANSLATIONS, WEB DESIGN", url: "/projects/gardalisa-real-estate" },
-    { name: "Mobiliar | interior design", label: "COPYWRITING, SOCIAL MEDIA, TRANSLATIONS, WEB DESIGN", url: "/projects/mobiliar-interior-design.vue" },
+    { name: "Mobiliar | interior design", label: "COPYWRITING, SOCIAL MEDIA, TRANSLATIONS, WEB DESIGN", url: "/projects/mobiliar-interior-design" },
 ]);
 </script>
 
