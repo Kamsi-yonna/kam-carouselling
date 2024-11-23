@@ -8,19 +8,19 @@
       <div class="nav-links w-dyn-list">
         <div role="list" class="nav-links w-dyn-items">
           <div role="listitem" class="w-dyn-item">
-            <a href="/" class="nav-link w-inline-block">
+            <a href="/services/copywriting" class="nav-link w-inline-block">
               <div>copywriting</div>
               <div class="nav-underline"></div>
             </a>
           </div>
           <div role="listitem" class="w-dyn-item">
-            <a href="/" class="nav-link w-inline-block">
+            <a href="/services/web-design" class="nav-link w-inline-block">
               <div>web design</div>
               <div class="nav-underline"></div>
             </a>
           </div>
           <div role="listitem" class="w-dyn-item">
-            <a href="/" class="nav-link w-inline-block">
+            <a href="/services/brand-design" class="nav-link w-inline-block">
               <div>brand design</div>
               <div class="nav-underline"></div>
             </a>
@@ -29,7 +29,7 @@
       </div>
     </div>
     <div class="nav-menu">
-      <a href="#" class="nav-link w-inline-block" @click.prevent="toggleMenu">
+      <a href="" class="nav-link w-inline-block" @click.prevent="toggleMenu">
         <div>Menu</div>
         <div class="nav-underline"></div>
       </a>
@@ -173,6 +173,7 @@ const toggleMenu = () => {
 .menu-window {
   z-index: 3;
 }
+
 .service-image_wrapper {
   position: relative;
 }

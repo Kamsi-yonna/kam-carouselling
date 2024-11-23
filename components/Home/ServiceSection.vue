@@ -26,9 +26,9 @@
 
 <script setup lang="ts">
 const services = ref([
-    { name: "Web Design", url: "/a" },
-    { name: "Brand Design", url: "/b" },
-    { name: "Copywriting", url: "/c" },
+    { name: "Web Design", url: "/services/web-design" },
+    { name: "Brand Design", url: "/services/brand-design" },
+    { name: "Copywriting", url: "/services/copywriting" },
 ]);
 </script>
 
