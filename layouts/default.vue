@@ -2,6 +2,7 @@
     <div class="body">
         <div class="page-wrapper">
             <NavbarComponent />
+            <LoadingSpinner v-if="isLoading" />
             <slot />
             <FooterComponent />
         </div>
@@ -9,11 +10,16 @@
 </template>
 
 <script setup lang="ts">
-const isMenuVisible = ref(false);
+import { ref, onMounted } from 'vue';
+import { useRoute } from 'vue-router';
 
-const toggleMenu = () => {
-    isMenuVisible.value = !isMenuVisible.value;
-};
+const isLoading = ref(true);
+
+onMounted(() => {
+    setTimeout(() => {
+        isLoading.value = false;
+    }, 2000);
+});
 </script>
 
 <style>
