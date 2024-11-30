@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="fade-in-section" data-fade-anim>
         <div class="hero-wrapper">
             <div class="hero-block">
                 <div id="w-node-_894f717f-3c13-8810-b109-6609c28cf97c-8f245f80" class="hero-video_wrapper">
@@ -76,5 +76,6 @@
 
 
 <script setup lang="ts">
-
+import useGsap from '~/composables/useGsap';
+useGsap();
 </script>

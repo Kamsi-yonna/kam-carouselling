@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="fade-in-section" data-fade-anim>
         <div class="client-section">
             <div class="client-wrapper">
                 <div class="client-header_block">
@@ -28,6 +28,9 @@
 </template>
 
 <script setup lang="ts">
+import useGsap from '~/composables/useGsap';
+useGsap();
+
 const projects = ref([
     { name: "New spaces two | Naming", label: "NAMING", url: "/projects/new-spaces-two-naming" },
     { name: "APT Dolomiti Paganella", label: "COPYWRITING", url: "/projects/APT-Dolomiti-Paganella" },
