@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="fade-in-section" data-fade-anim>
         <div class="mentions-section">
             <div class="mentions-wrapper">
                 <div class="mentions-header_block">
@@ -90,7 +90,8 @@
 </template>
 
 <script setup lang="ts">
-
+import useGsap from '~/composables/useGsap';
+useGsap();
 </script>
 
 <style scoped></style>
