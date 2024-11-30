@@ -37,4 +37,8 @@ export default defineNuxtConfig({
   ],
 
   components: ["~/components", "~/components/Home"],
+
+  build: {
+    transpile: ["gsap"],
+  },
 });
