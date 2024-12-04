@@ -1,8 +1,8 @@
 <template>
     <div class="body">
-        <div class="page-wrapper">
+        <LoadingSpinner v-if="isLoading" />
+        <div v-else class="page-wrapper">
             <NavbarComponent />
-            <LoadingSpinner v-if="isLoading" />
             <slot />
             <FooterComponent />
         </div>
