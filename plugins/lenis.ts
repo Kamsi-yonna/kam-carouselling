@@ -4,7 +4,7 @@ export default defineNuxtPlugin((nuxtApp) => {
   const lenis = new Lenis({
     lerp: 0.05,
     wheelMultiplier: 0.8,
-    infinite: true,
+    infinite: false,
     duration: 1.2,
     smoothWheel: true,
   });
