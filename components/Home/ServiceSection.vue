@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="fade-in-section" data-fade-anim>
         <div class="service-section">
             <div class="section-top_line"></div>
             <div class="service-wrapper">
@@ -25,6 +25,8 @@
 </template>
 
 <script setup lang="ts">
+import useGsap from '~/composables/useGsap';
+useGsap();
 const services = ref([
     { name: "Web Design", url: "/services/web-design" },
     { name: "Brand Design", url: "/services/brand-design" },

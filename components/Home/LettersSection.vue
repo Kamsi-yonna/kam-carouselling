@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="fade-in-section" data-fade-anim>
         <div class="letters-section">
             <div class="letters-wrapper">
                 <div class="letters-header_block">

@@ -1,6 +1,7 @@
 <template>
   <!-- navbar -->
-  <div v-if="!isMenuVisible" data-w-id="56d0c008-e9f9-172c-ea9c-4ae7a1558a08" class="c-nav" style="opacity: 1">
+  <div v-if="!isMenuVisible" data-w-id="56d0c008-e9f9-172c-ea9c-4ae7a1558a08" class="c-nav " style="opacity: 1"
+    hero-fade-anim>
     <div class="nav-wrapper">
       <div class="c-logo">
         <a href="/" aria-current="page" class="logo w--current">Caroselling</a>
@@ -42,7 +43,7 @@
       <div class="c-nav">
         <div class="menu-dropdown_wrapper">
           <div class="c-logo">
-            <a href="https://kam-caroselling.webflow.io/" class="logo">Caroselling</a>
+            <a href="/" class="logo">Caroselling</a>
           </div>
           <div class="nav-links_wrapper">
             <div class="social-links_block">
@@ -102,7 +103,7 @@
             <div class="main-menu_block">
               <div class="contact-link_block">
                 <div class="contact-link">
-                  <a href="https://kam-caroselling.webflow.io/untitled#" class="menu-link_name w-inline-block">
+                  <a href="/" class="menu-link_name w-inline-block">
                     <div class="text-block">home</div>
                     <div class="cc-underline"></div>
                   </a>
@@ -110,7 +111,8 @@
               </div>
               <div class="contact-link_block">
                 <div class="contact-link">
-                  <a href="https://kam-caroselling.webflow.io/untitled#" class="menu-link_name w-inline-block">
+                  <a href="/letters/brand-identity-more-than-a-logo-it-is-the-soul-of-your-business"
+                    class="menu-link_name w-inline-block">
                     <div class="text-block">letters</div>
                     <div class="cc-underline"></div>
                   </a>
@@ -118,7 +120,7 @@
               </div>
               <div class="contact-link_block">
                 <div class="contact-link">
-                  <a href="https://kam-caroselling.webflow.io/untitled#" class="menu-link_name w-inline-block">
+                  <a class="menu-link_name w-inline-block">
                     <div class="text-block">contacts</div>
                     <div class="cc-underline"></div>
                   </a>
@@ -134,7 +136,7 @@
               <div class="menu-link_block" v-for="(service, index) in services" :key="index"
                 @mouseover="hoveredService = service.image" @mouseleave="hoveredService = ''">
                 <div class="menu-link">
-                  <a href="#" class="menu-link_name w-inline-block">
+                  <a :href="service.url" class="menu-link_name w-inline-block">
                     <div class="text-block">{{ service.name }}</div>
                     <div class="cc-underline"></div>
                   </a>
@@ -158,9 +160,9 @@ const isMenuVisible = ref(false);
 const hoveredService = ref('');
 
 const services = ref([
-  { name: 'Web Design', image: '/assets/images/services/web-design.webp' },
-  { name: 'Copywriting', image: '/assets/images/services/copywriting.webp' },
-  { name: 'Brand Design', image: '/assets/images/services/brand-design.webp' },
+  { name: 'Web Design', image: '/assets/images/services/web-design.webp', url: "/services/web-design" },
+  { name: 'Copywriting', image: '/assets/images/services/copywriting.webp', url: "/services/copywriting" },
+  { name: 'Brand Design', image: '/assets/images/services/brand-design.webp', url: "/services/brand-design" },
 ]);
 
 const toggleMenu = () => {

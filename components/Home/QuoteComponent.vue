@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="fade-in-section" data-fade-anim>
     <div v-if="index === 'firstQuote'" class="quote-wrapper">
       <div id="w-node-_89c19100-c9bb-e0c5-5a08-21062159f36b-8f245f80" class="quote-video_wrapper">
         <div class="quote-video_block"></div>
@@ -117,6 +117,8 @@
 </template>
 
 <script setup lang="ts">
+import useGsap from '~/composables/useGsap';
+useGsap();
 const props = defineProps<{
   index?: string;
   page?: string;

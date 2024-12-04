@@ -88,3 +88,7 @@ a,
 .hero-image_block {
   z-index: 2;
 }
+
+.page-wrapper {
+  overflow: hidden;
+}
