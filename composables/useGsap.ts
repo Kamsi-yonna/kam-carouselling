@@ -10,6 +10,7 @@ export default function useGsap() {
     const fadeInElements = document.querySelectorAll("[data-fade-anim]");
     const heroFadeInAnimation = document.querySelectorAll("[hero-fade-anim]");
     const articleFadeInAnimation = document.querySelectorAll(".article-block");
+    const heroVideoBlock = document.querySelectorAll(".hero-video_block");
 
     fadeInElements.forEach((element) => {
       const anim = gsap.fromTo(
@@ -60,6 +61,19 @@ export default function useGsap() {
       );
     });
 
+    heroVideoBlock.forEach((element) => {
+      gsap.fromTo(
+        element,
+        { opacity: 0, scale: 0 },
+        {
+          opacity: 1,
+          scale: 1,
+          duration: 2.5,
+          ease: "power1.inOut",
+        }
+      );
+    });
+
     heroFadeInAnimation.forEach((element) => {
       gsap.fromTo(
         element,
@@ -74,8 +88,41 @@ export default function useGsap() {
     });
   };
 
+  const projectHoverToReveal = () => {
+    const clientTitles = document.querySelectorAll(".client-title");
+
+    clientTitles.forEach((title) => {
+      const projectImageBlock = title
+        .closest(".client-list_block")!
+        .querySelector(".project-image_block");
+
+      gsap.set(projectImageBlock, { opacity: 0 });
+
+      title.addEventListener("mouseenter", () => {
+        gsap.to(projectImageBlock, {
+          opacity: 1,
+          scale: 1,
+          rotation: 1,
+          duration: 0.5,
+          ease: "power1.inOut",
+        });
+      });
+
+      title.addEventListener("mouseleave", () => {
+        gsap.to(projectImageBlock, {
+          opacity: 0,
+          scale: 0.8,
+          rotation: 0,
+          duration: 0.5,
+          ease: "power1.inOut",
+        });
+      });
+    });
+  };
+
   onMounted(() => {
     fadeInAnimation();
+    projectHoverToReveal();
   });
 
   return { gsap };

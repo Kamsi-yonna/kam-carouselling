@@ -92,3 +92,9 @@ a,
 .page-wrapper {
   overflow: hidden;
 }
+
+.project-image_block {
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.5s ease; /* Optional for smoothness */
+  width: 700px;
+}
