@@ -3146,7 +3146,6 @@ a {
   grid-row-gap: 100px;
   border-top: 1px solid #fff;
   flex-flow: column;
-  margin-bottom: clamp(170px, 16.6667vw, 240px);
   margin-left: 60px;
   margin-right: 60px;
   padding-top: 30px;
@@ -3170,10 +3169,7 @@ a {
 }
 
 .letter-hero_section {
-  margin-bottom: clamp(80px, 14.9306vw, 180px);
-  margin-top: clamp(75px, 14.9306vw, 75px);
-  margin-left: 60px;
-  margin-right: 60px;
+  margin: clamp(75px, 14.9306vw, 75px) 60px clamp(80px, 14.9306vw, 180px);
 }
 
 .letter-hero_wrapper {
@@ -3547,7 +3543,7 @@ a {
 }
 
 .menu-window {
-  z-index: 1;
+  z-index: 3;
   background-color: #000;
   height: 100%;
   position: fixed;
@@ -3561,6 +3557,14 @@ a {
   align-items: flex-end;
   font-size: clamp(20px, 1.125vw, 50px);
   display: flex;
+}
+
+.project-image_block {
+  z-index: 1;
+  opacity: 0;
+  width: 500px;
+  position: absolute;
+  right: 95px;
 }
 
 @media screen and (max-width: 991px) {
@@ -3926,7 +3930,8 @@ a {
   }
 
   .service-image_wrapper,
-  .nav-links_wrapper {
+  .nav-links_wrapper,
+  .project-image_block {
     display: none;
   }
 }
