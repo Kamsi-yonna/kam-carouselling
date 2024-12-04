@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="letter-hero_section">
+        <div class="letter-hero_section" hero-fade-anim>
             <div class="letter-hero_wrapper">
                 <div class="letter-hero_details">
                     <div class="categories_wrapper">

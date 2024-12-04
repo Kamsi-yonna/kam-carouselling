@@ -1,6 +1,7 @@
 <template>
   <!-- navbar -->
-  <div v-if="!isMenuVisible" data-w-id="56d0c008-e9f9-172c-ea9c-4ae7a1558a08" class="c-nav" style="opacity: 1">
+  <div v-if="!isMenuVisible" data-w-id="56d0c008-e9f9-172c-ea9c-4ae7a1558a08" class="c-nav " style="opacity: 1"
+    hero-fade-anim>
     <div class="nav-wrapper">
       <div class="c-logo">
         <a href="/" aria-current="page" class="logo w--current">Caroselling</a>

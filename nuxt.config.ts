@@ -38,6 +38,8 @@ export default defineNuxtConfig({
 
   components: ["~/components", "~/components/Home"],
 
+  plugins: ["~/plugins/lenis.ts"],
+
   build: {
     transpile: ["gsap"],
   },

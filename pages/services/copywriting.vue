@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="services-hero_wrapper">
+        <div class="services-hero_wrapper" hero-fade-anim>
             <div class="services-hero_details">
                 <div class="service-title_block">
                     <div class="blue-text_span">copywriting</div>
