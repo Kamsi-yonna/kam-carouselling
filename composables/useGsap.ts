@@ -10,6 +10,7 @@ export default function useGsap() {
     const fadeInElements = document.querySelectorAll("[data-fade-anim]");
     const heroFadeInAnimation = document.querySelectorAll("[hero-fade-anim]");
     const articleFadeInAnimation = document.querySelectorAll(".article-block");
+    const heroVideoBlock = document.querySelectorAll(".hero-video_block");
 
     fadeInElements.forEach((element) => {
       const anim = gsap.fromTo(
@@ -56,6 +57,19 @@ export default function useGsap() {
             toggleActions: "play none none none",
             markers: false,
           },
+        }
+      );
+    });
+
+    heroVideoBlock.forEach((element) => {
+      gsap.fromTo(
+        element,
+        { opacity: 0, scale: 0 },
+        {
+          opacity: 1,
+          scale: 1,
+          duration: 2.5,
+          ease: "power1.inOut",
         }
       );
     });

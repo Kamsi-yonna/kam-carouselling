@@ -3,12 +3,7 @@
         <div class="hero-wrapper">
             <div class="hero-block">
                 <div id="w-node-_894f717f-3c13-8810-b109-6609c28cf97c-8f245f80" class="hero-video_wrapper">
-                    <div data-w-id="11238cef-c8eb-a72b-4901-b4d20fc5e1dd" style="
-                opacity: 1;
-                transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                transform-style: preserve-3d;
-              " class="hero-video_block">
+                    <div data-w-id="11238cef-c8eb-a72b-4901-b4d20fc5e1dd" class="hero-video_block">
                         <div data-poster-url="https://cdn.prod.website-files.com/67245aca623c6cfc8f245f78%2F672be4402522127cc212b81c_video-h%20%281%29-poster-00001.jpg"
                             data-video-urls="https://cdn.prod.website-files.com/67245aca623c6cfc8f245f78%2F672be4402522127cc212b81c_video-h%20%281%29-transcode.mp4,https://cdn.prod.website-files.com/67245aca623c6cfc8f245f78%2F672be4402522127cc212b81c_video-h%20%281%29-transcode.webm"
                             data-autoplay="true" data-loop="true" data-wf-ignore="true"
