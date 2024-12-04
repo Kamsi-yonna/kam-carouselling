@@ -21,9 +21,3 @@ onMounted(() => {
     }, 2000);
 });
 </script>
-
-<style>
-.menu-window {
-    background: #000;
-}
-</style>
