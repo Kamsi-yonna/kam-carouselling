@@ -3146,7 +3146,7 @@ a {
   grid-row-gap: 100px;
   border-top: 1px solid #fff;
   flex-flow: column;
-  margin-bottom: clamp(170px, 16.6667vw, 240px);
+  margin-bottom: 20px;
   margin-left: 60px;
   margin-right: 60px;
   padding-top: 30px;

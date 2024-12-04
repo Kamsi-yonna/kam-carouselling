@@ -1,5 +1,5 @@
 <template>
-    <div class="contact-section fade-in-section" data-fade-anim>
+    <div class="contact-section" data-fade-anim>
         <div class="contact-header_wrapper">
             <div class="contact-header_block">
                 <h2 class="contact-header">Contact us</h2>
@@ -99,7 +99,7 @@
             </div>
         </div>
     </div>
-    <div class="footer-section fade-in-section" data-fade-anim>
+    <div class="footer-section" data-fade-anim>
         <div class="footer-wrapper">
             <div>
                 This is a clone of
