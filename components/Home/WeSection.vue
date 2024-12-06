@@ -47,57 +47,13 @@
                 </div>
             </div>
             <div class="design-step-wrapper">
-                <div class="design-step-block">
+                <div class="design-step-block" v-for="(step, index) in steps" :key="index">
                     <div class="index-block">
-                        <div>01</div>
+                        <div>{{ step.index }}</div>
                     </div>
                     <div class="step-description">
                         <div>
-                            Design content as if you were working
-                            <span class="blue-text_span">for Fisher Price.</span>
-                        </div>
-                    </div>
-                </div>
-                <div id="w-node-bb1b0713-6053-3723-462f-eb6be24a33c9-8f245f80" class="design-step-block">
-                    <div class="index-block">
-                        <div>02</div>
-                    </div>
-                    <div class="step-description">
-                        <div>
-                            Respect the <span class="blue-text_span">emotions</span> of
-                            those who read and consume your content.
-                        </div>
-                    </div>
-                </div>
-                <div id="w-node-f060d18c-20b6-25fd-bd55-5eb0ec78a521-8f245f80" class="design-step-block">
-                    <div class="index-block">
-                        <div>03</div>
-                    </div>
-                    <div class="step-description">
-                        <div>
-                            <span class="blue-text_span">Use a human voice, not a tone of voice.</span>
-                        </div>
-                    </div>
-                </div>
-                <div id="w-node-_2f201533-4659-fbc0-8d9c-bf4f97797619-8f245f80" class="design-step-block">
-                    <div class="index-block">
-                        <div>04</div>
-                    </div>
-                    <div class="step-description">
-                        <div>
-                            Convey closeness,
-                            <span class="blue-text_span">ethics and values.</span>
-                        </div>
-                    </div>
-                </div>
-                <div id="w-node-e2497751-db73-dbd7-687b-f5465376b817-8f245f80" class="design-step-block">
-                    <div class="index-block">
-                        <div>05</div>
-                    </div>
-                    <div class="step-description">
-                        <div>
-                            Guide people's actions, solve their problems, and change their
-                            lives <span class="blue-text_span">for the better.</span>
+                            {{ step.title }}
                         </div>
                     </div>
                 </div>
@@ -358,11 +314,23 @@
 <script setup lang="ts">
 import useGsap from '~/composables/useGsap';
 useGsap();
+
+
 const props = defineProps<{
     index?: string;
     page?: string;
 }>();
 
+const steps = ref([
+    { index: "01", title: "Design content as if you were working for Fisher Price." },
+    { index: "02", title: "Respect the emotions of those who read and consume your content." },
+    { index: "03", title: "Use a human voice, not a tone of voice." },
+    { index: "04", title: "Convey closeness, ethics and values." },
+    { index: "05", title: "Guide people's actions, solve their problems, and change their lives for the better." }
+]);
+
 </script>
 
-<style scoped></style>
+<style scoped>
+
+</style>

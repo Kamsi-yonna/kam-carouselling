@@ -120,9 +120,64 @@ export default function useGsap() {
     });
   };
 
+  const animateIndexBlocks = () => {
+    const indexBlocks = document.querySelectorAll(".index-block");
+
+    indexBlocks.forEach((block, index) => {
+      const anim = gsap.fromTo(
+        block,
+        { opacity: 0, y: 20 },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 0.6,
+          ease: "power.inOut",
+          paused: true,
+          delay: index * 0.4,
+        }
+      );
+
+      ScrollTrigger.create({
+        trigger: block,
+        start: "top 80%",
+        // end: "bottom",
+        onEnter: () => anim.play(),
+        onLeaveBack: () => anim.pause(0),
+      });
+    });
+  };
+
+  const animateStepDescBlocks = () => {
+    const indexBlocks = document.querySelectorAll(".step-description");
+
+    indexBlocks.forEach((block, index) => {
+      const anim = gsap.fromTo(
+        block,
+        { opacity: 0, x: 20 },
+        {
+          opacity: 1,
+          x: 0, // Final position
+          duration: 0.8,
+          ease: "power1.inOut",
+          paused: true,
+          delay: index * 0.4,
+        }
+      );
+
+      ScrollTrigger.create({
+        trigger: block,
+        start: "top 80%",
+        onEnter: () => anim.play(),
+        onLeaveBack: () => anim.pause(0),
+      });
+    });
+  };
+
   onMounted(() => {
     fadeInAnimation();
     projectHoverToReveal();
+    animateIndexBlocks();
+    animateStepDescBlocks();
   });
 
   return { gsap };
